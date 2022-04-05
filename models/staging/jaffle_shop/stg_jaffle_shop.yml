@@ -5,7 +5,7 @@ models:
     description: Staged customer data from our jaffle shop app.
     columns: 
       - name: customer_id
-        description: The primary key for all customers.
+        description: The primary key for customers. Make sure it's unique and not null.
         tests:
           - unique
           - not_null
