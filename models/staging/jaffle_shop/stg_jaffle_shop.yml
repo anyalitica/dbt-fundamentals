@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_customers
-    description: Staged customer data from our jaffle shop app.
+    description: Staged customer data from our jaffle shop app. More description needed!
     columns: 
       - name: customer_id
         description: The primary key for customers. Make sure it's unique and not null.
