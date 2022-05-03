@@ -1,7 +1,5 @@
 version: 2
 
----Here we store all the sources for this project
-
 sources:
     - name: jaffle_shop
       database: dbt-fudamentals
