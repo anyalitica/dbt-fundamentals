@@ -2,7 +2,7 @@ version: 2
 
 sources:
     - name: jaffle_shop
-      database: dbt-fudamentals
+      database: personal-projects-375809
       schema: jaffle_shop
       tables:
         - name: payment
