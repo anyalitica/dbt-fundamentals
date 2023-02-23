@@ -1,9 +1,10 @@
 
-select
-    id as user_id,
-    email,
-    role,
-    created_at,
-    updated_at
+SELECT
+      id              AS user_id
+    , email
+    , role
+    , created_at
+    , updated_at
 
-from {{source('jaffle_shop', 'users')}}
+FROM
+    {{source('jaffle_shop', 'users')}}
